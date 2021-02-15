@@ -25,5 +25,9 @@ contaCorrenteRicardo.agencia = 1001;
 console.log(contaCorrenteRicardo.saldo);
 contaCorrenteRicardo.saldo = 100;
 console.log(contaCorrenteRicardo.saldo);
+let valorSacado = 200;
+
+contaCorrenteRicardo.saldo -= valorSacado;
+console.log(contaCorrenteRicardo.saldo);
 console.log(cliente1);
 console.log(cliente2);
